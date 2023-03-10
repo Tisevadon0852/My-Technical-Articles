@@ -60,7 +60,13 @@ To check if Git is insatlled on your computer:
 - a. On your Windows computer, go to **search bar**
 - b. On the **search bar**, type **command prompt**
 - c. Launch the terminal.
-- d. Then type this command `git --version`. If you have Git installed, it will output version of the on your computer as shown below.
+- d. Then type this command
+
+  ```
+  git --version
+  ```
+
+- . If you have Git installed, it will output version of the on your computer as shown below.
 
 But if Git is not installed, follow these processes to install it:
 
