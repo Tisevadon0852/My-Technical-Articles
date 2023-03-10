@@ -57,13 +57,14 @@ it is time to install Git. But before trying the installation process, first che
 
 To check if Git is insatlled on your computer:
 
-- a. On your Windows computer, go to **search bar**
+- a. On your Windows computer, go to _search bar_
 - b. On the **search bar**, type **command prompt**
 - c. Launch the terminal.
 - d. Then type this command
 
   ```
   git --version
+
   ```
 
 - . If you have Git installed, it will output version of the on your computer as shown below.
@@ -79,10 +80,22 @@ But if Git is not installed, follow these processes to install it:
 **For Linux**
 
 - Open your terminal and run the following command
-- `sudo apt-get update`
-- `sudo apt-get install git`
 
-After going through the installation proccesses, it is necessary to _restart_ your computer. After which your run `git --version` command again, this time you will have the same output like I have in the image above.
+```
+sudo apt-get update
+```
+
+```
+sudo apt-get install git
+```
+
+After going through the installation proccesses, it is necessary to _restart_ your computer. After which your run
+
+```
+git --version
+```
+
+command again, this time you will have the same output like I have in the image above.
 
 ## Step 1 - Create a GitHub Account
 
@@ -96,21 +109,31 @@ For now, you will set up your email, name and also maing your favourite editor t
 
 - To set up your email, run this command on your Git Bash terminal
 
-`git config --global user.email "youremail@example.com"`
+```
+git config --global user.email "youremail@example.com"
+```
 
 Replace "youremail@example.com" with your email address
 
 - To set up your name
 
-  `git config --global user.name "your name"`
+  ```
+  git config --global user.name "your name"
+  ```
 
   Replace "your name" with your actual name
 
 - To configure your editor: Git uses a default text editor to open and edit commit messages. If you prefer to use sublime text, emacs or VS Code, you can configure Git to use by entering the following command:
 
-`git config --global core.editor "code"`
+```
+git config --global core.editor "code"
+```
 
-To verify your configuration, run this command `git config --list`
+To verify your configuration, run this command
+
+```
+git config --list
+```
 
 As you can see, the above command displays a list of all the configuration settings for Git on your computer.
 
